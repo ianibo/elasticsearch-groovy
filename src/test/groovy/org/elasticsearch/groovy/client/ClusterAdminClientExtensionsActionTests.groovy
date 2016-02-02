@@ -19,7 +19,6 @@
 package org.elasticsearch.groovy.client
 
 import org.elasticsearch.action.admin.cluster.health.ClusterHealthResponse
-import org.elasticsearch.action.admin.cluster.health.ClusterHealthStatus
 import org.elasticsearch.action.admin.cluster.node.hotthreads.NodesHotThreadsResponse
 import org.elasticsearch.action.admin.cluster.node.info.NodesInfoResponse
 import org.elasticsearch.action.admin.cluster.node.stats.NodesStatsResponse
@@ -37,6 +36,7 @@ import org.elasticsearch.action.admin.cluster.tasks.PendingClusterTasksResponse
 import org.elasticsearch.action.get.GetResponse
 import org.elasticsearch.client.ClusterAdminClient
 import org.elasticsearch.cluster.SnapshotsInProgress
+import org.elasticsearch.cluster.health.ClusterHealthStatus
 import org.elasticsearch.snapshots.SnapshotState
 import org.elasticsearch.test.ESIntegTestCase.ClusterScope
 import org.elasticsearch.test.ESIntegTestCase.Scope
