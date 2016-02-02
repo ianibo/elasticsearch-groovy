@@ -47,7 +47,7 @@ In general, the version number will match the release of Elasticsearch.
 
 |    Elasticsearch    |     Groovy Client           |    Java       | Groovy |
 |---------------------|-----------------------------|---------------|--------|
-| 2.3.0-SNAPSHOT      | 2.3.0-SNAPSHOT              | 7u60 or later | 2.4.4  |
+| 2.3.0-SNAPSHOT      | 2.3.0-SNAPSHOT              | 7u60 or later | 2.4.5  |
 
 To build a `SNAPSHOT` version, you need to build it with Gradle (see below for further details):
 
@@ -65,7 +65,7 @@ Groovy Warning
 Groovy released Groovy 2.4.4 to fix a vulnerability with [CVE-2015-3253](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-3253).
 
 You are considered vulnerable just by having an earlier version of Groovy on your classpath! All users should upgrade
-to Groovy 2.4.4 as a result.
+to Groovy 2.4.4, or later, as a result.
 
 JVM Warning
 -----------
